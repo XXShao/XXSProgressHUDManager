@@ -8,13 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		34739BDE1E6AAC9C000665AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 34739BDD1E6AAC9C000665AB /* main.m */; };
-		34739BE11E6AAC9C000665AB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34739BE01E6AAC9C000665AB /* AppDelegate.m */; };
-		34739BE41E6AAC9C000665AB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34739BE31E6AAC9C000665AB /* ViewController.m */; };
 		34739BE71E6AAC9C000665AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34739BE51E6AAC9C000665AB /* Main.storyboard */; };
 		34739BE91E6AAC9C000665AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34739BE81E6AAC9C000665AB /* Assets.xcassets */; };
 		34739BEC1E6AAC9C000665AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34739BEA1E6AAC9C000665AB /* LaunchScreen.storyboard */; };
 		34739BF71E6AAC9C000665AB /* ZX_MBProgressManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34739BF61E6AAC9C000665AB /* ZX_MBProgressManagerTests.m */; };
 		34739C021E6AAC9C000665AB /* ZX_MBProgressManagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34739C011E6AAC9C000665AB /* ZX_MBProgressManagerUITests.m */; };
+		34739C161E6AAD40000665AB /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 34739C131E6AAD40000665AB /* MBProgressHUD.m */; };
+		34739C1B1E6AAE11000665AB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34739C1A1E6AAE11000665AB /* ViewController.m */; };
+		34739C211E6AAEC2000665AB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34739C201E6AAEC2000665AB /* AppDelegate.m */; };
+		34739C241E6AAFAB000665AB /* XZMBProgressManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 34739C231E6AAFAB000665AB /* XZMBProgressManager.m */; };
+		34739C281E6AB728000665AB /* ZXModelFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 34739C271E6AB728000665AB /* ZXModelFactory.m */; };
+		34739C2C1E6AB776000665AB /* ZXHUDTypeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 34739C2B1E6AB776000665AB /* ZXHUDTypeModel.m */; };
+		34739C301E6ABAF6000665AB /* ZXHUDTypeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 34739C2F1E6ABAF6000665AB /* ZXHUDTypeCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,10 +42,6 @@
 /* Begin PBXFileReference section */
 		34739BD91E6AAC9C000665AB /* ZX_MBProgressManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZX_MBProgressManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34739BDD1E6AAC9C000665AB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		34739BDF1E6AAC9C000665AB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		34739BE01E6AAC9C000665AB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		34739BE21E6AAC9C000665AB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		34739BE31E6AAC9C000665AB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		34739BE61E6AAC9C000665AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		34739BE81E6AAC9C000665AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		34739BEB1E6AAC9C000665AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +52,20 @@
 		34739BFD1E6AAC9C000665AB /* ZX_MBProgressManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZX_MBProgressManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		34739C011E6AAC9C000665AB /* ZX_MBProgressManagerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZX_MBProgressManagerUITests.m; sourceTree = "<group>"; };
 		34739C031E6AAC9C000665AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34739C121E6AAD40000665AB /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		34739C131E6AAD40000665AB /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		34739C191E6AAE11000665AB /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		34739C1A1E6AAE11000665AB /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		34739C1F1E6AAEC2000665AB /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		34739C201E6AAEC2000665AB /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		34739C221E6AAFAB000665AB /* XZMBProgressManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZMBProgressManager.h; sourceTree = "<group>"; };
+		34739C231E6AAFAB000665AB /* XZMBProgressManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZMBProgressManager.m; sourceTree = "<group>"; };
+		34739C261E6AB728000665AB /* ZXModelFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXModelFactory.h; sourceTree = "<group>"; };
+		34739C271E6AB728000665AB /* ZXModelFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXModelFactory.m; sourceTree = "<group>"; };
+		34739C2A1E6AB776000665AB /* ZXHUDTypeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXHUDTypeModel.h; sourceTree = "<group>"; };
+		34739C2B1E6AB776000665AB /* ZXHUDTypeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXHUDTypeModel.m; sourceTree = "<group>"; };
+		34739C2E1E6ABAF6000665AB /* ZXHUDTypeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXHUDTypeCell.h; sourceTree = "<group>"; };
+		34739C2F1E6ABAF6000665AB /* ZXHUDTypeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXHUDTypeCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,13 +116,15 @@
 		34739BDB1E6AAC9C000665AB /* ZX_MBProgressManager */ = {
 			isa = PBXGroup;
 			children = (
-				34739BDF1E6AAC9C000665AB /* AppDelegate.h */,
-				34739BE01E6AAC9C000665AB /* AppDelegate.m */,
-				34739BE21E6AAC9C000665AB /* ViewController.h */,
-				34739BE31E6AAC9C000665AB /* ViewController.m */,
-				34739BE51E6AAC9C000665AB /* Main.storyboard */,
+				34739C1E1E6AAEC2000665AB /* AppDelegate */,
+				34739C0F1E6AAD33000665AB /* OpenSource */,
+				34739C181E6AAE11000665AB /* ViewController */,
+				34739C251E6AB70D000665AB /* Factory */,
+				34739C2D1E6ABAD5000665AB /* View */,
+				34739C1C1E6AAE3B000665AB /* Utils */,
+				34739C1D1E6AAE80000665AB /* Storyboard */,
+				34739C291E6AB759000665AB /* Model */,
 				34739BE81E6AAC9C000665AB /* Assets.xcassets */,
-				34739BEA1E6AAC9C000665AB /* LaunchScreen.storyboard */,
 				34739BED1E6AAC9C000665AB /* Info.plist */,
 				34739BDC1E6AAC9C000665AB /* Supporting Files */,
 			);
@@ -138,6 +155,87 @@
 				34739C031E6AAC9C000665AB /* Info.plist */,
 			);
 			path = ZX_MBProgressManagerUITests;
+			sourceTree = "<group>";
+		};
+		34739C0F1E6AAD33000665AB /* OpenSource */ = {
+			isa = PBXGroup;
+			children = (
+				34739C101E6AAD40000665AB /* MBProgressHUD */,
+			);
+			path = OpenSource;
+			sourceTree = "<group>";
+		};
+		34739C101E6AAD40000665AB /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				34739C121E6AAD40000665AB /* MBProgressHUD.h */,
+				34739C131E6AAD40000665AB /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		34739C181E6AAE11000665AB /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				34739C191E6AAE11000665AB /* ViewController.h */,
+				34739C1A1E6AAE11000665AB /* ViewController.m */,
+			);
+			name = ViewController;
+			path = OpenSource/ViewController;
+			sourceTree = "<group>";
+		};
+		34739C1C1E6AAE3B000665AB /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				34739C221E6AAFAB000665AB /* XZMBProgressManager.h */,
+				34739C231E6AAFAB000665AB /* XZMBProgressManager.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		34739C1D1E6AAE80000665AB /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				34739BE51E6AAC9C000665AB /* Main.storyboard */,
+				34739BEA1E6AAC9C000665AB /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		34739C1E1E6AAEC2000665AB /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				34739C1F1E6AAEC2000665AB /* AppDelegate.h */,
+				34739C201E6AAEC2000665AB /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		34739C251E6AB70D000665AB /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				34739C261E6AB728000665AB /* ZXModelFactory.h */,
+				34739C271E6AB728000665AB /* ZXModelFactory.m */,
+			);
+			path = Factory;
+			sourceTree = "<group>";
+		};
+		34739C291E6AB759000665AB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				34739C2A1E6AB776000665AB /* ZXHUDTypeModel.h */,
+				34739C2B1E6AB776000665AB /* ZXHUDTypeModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		34739C2D1E6ABAD5000665AB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				34739C2E1E6ABAF6000665AB /* ZXHUDTypeCell.h */,
+				34739C2F1E6ABAF6000665AB /* ZXHUDTypeCell.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,9 +374,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34739BE41E6AAC9C000665AB /* ViewController.m in Sources */,
-				34739BE11E6AAC9C000665AB /* AppDelegate.m in Sources */,
+				34739C211E6AAEC2000665AB /* AppDelegate.m in Sources */,
 				34739BDE1E6AAC9C000665AB /* main.m in Sources */,
+				34739C1B1E6AAE11000665AB /* ViewController.m in Sources */,
+				34739C161E6AAD40000665AB /* MBProgressHUD.m in Sources */,
+				34739C281E6AB728000665AB /* ZXModelFactory.m in Sources */,
+				34739C241E6AAFAB000665AB /* XZMBProgressManager.m in Sources */,
+				34739C2C1E6AB776000665AB /* ZXHUDTypeModel.m in Sources */,
+				34739C301E6ABAF6000665AB /* ZXHUDTypeCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,6 +423,7 @@
 				34739BE61E6AAC9C000665AB /* Base */,
 			);
 			name = Main.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		34739BEA1E6AAC9C000665AB /* LaunchScreen.storyboard */ = {
@@ -328,6 +432,7 @@
 				34739BEB1E6AAC9C000665AB /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
